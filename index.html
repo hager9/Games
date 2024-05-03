@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamers Paradise</title>
+    <link rel="icon" href="./images/icons8-game-48.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap" rel="stylesheet">
+     <!-- fontAwesome css file -->
+     <link rel="stylesheet" href="./css/all.min.css">
+     <!-- bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- animate  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+     <!-- main css file -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="head d-flex justify-content-md-center justify-content-start align-items-center">
+            <div class="layer"></div>
+            <div class="animate__animated animate__zoomInDown fs-1 bg-gradient bg-opacity-75 px-2 py-4 text-light">Unleash Your Inner Gamer!</div>
+        </div>
+    </header>
+    
+    <nav class="navbar nav navbar-expand-lg position-fixed fixed-top">
+      <div class="container">
+        <h1 class="navbar-brand">Gamers Paradise</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" data-category="Shooter">Shooter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="Strategy">Strategy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-category="Sports">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-category="Fighting">Fighting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-category="Card">Card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-category="Action">Action</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-category="Racing">Racing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-category="MMORPG">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-category="Social">Social</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-category="MOBA">MOBA</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="home" id="allGames">
+        <div class="container my-5">
+          <div class="row gy-5 gx-4" id="gameData">
+            
+          </div>
+        </div>
+      </section>
+
+
+      <section class="gameDetails d-none" id="details">
+          <div class="container">
+        <button class="btn-close btn-close-white d-block ms-auto" id="btnClose"></button>
+            <div class="row my-3" id='detailsContent'>
+
+            </div>
+          </div>
+        
+      </section>
+
+      <div class="loading d-none">
+        <span class="loader"></span>
+     </div> 
+
+    </main>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
