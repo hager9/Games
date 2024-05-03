@@ -25,7 +25,7 @@ export default class DisplayGames{
     displayDetails(data) {
         const content = `
         <div class="col-md-4">
-        <img src="${data.thumbnail}" class="w-100" alt="${data.title}" />
+        <img src="${data.thumbnail}" class="w-100 mb-lg-0 mb-2" alt="${data.title}" />
      </div>
      <div class="col-md-8">
         <h3>Title: ${data.title}</h3>
@@ -33,7 +33,7 @@ export default class DisplayGames{
         <p>Platform: <span class="badge text-bg-info"> ${data.platform}</span> </p>
         <p>Status: <span class="badge text-bg-info"> ${data.status}</span> </p>
         <p class="small">${data.description}</p>
-        <a class="btn btn-outline-warning" target="_blank" href="${data.game_url}">Show Game</a>
+        <a class="btn btn-warning" target="_blank" href="${data.game_url}">Show Game</a>
 
      </div>
         

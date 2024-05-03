@@ -111,7 +111,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 10, .4) ;
+    background-color: rgba(0, 0, 10, 0.215) ;
 }
 
 
@@ -154,18 +154,12 @@ ul {
 }
 
 #details {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--bg-color);
     opacity: .95;
-    /* backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
     min-height: 100vh;
  }
 

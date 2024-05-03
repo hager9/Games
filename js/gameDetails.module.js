@@ -3,7 +3,7 @@ import DisplayGames from "./display.module.js";
 export default class GameDetails{
     constructor(id){
         document.getElementById("btnClose").addEventListener("click",()=>{
-            document.getElementById("allGames").classList.remove("d-none"); 
+            document.getElementById("main").classList.remove("d-none"); 
         document.getElementById("details").classList.add("d-none");
         })
         this.display = new DisplayGames();

@@ -48,7 +48,7 @@ export default class Home{
 
     showDetails(id){
         const gameDetails = new GameDetails(id);
-        document.getElementById("allGames").classList.add("d-none"); 
+        document.getElementById("main").classList.add("d-none"); 
         document.getElementById("details").classList.remove("d-none"); 
     }
 
